@@ -2,18 +2,18 @@ import "./header.scss";
 // import { Link } from "react-router-dom";
 // import menuImg from "../global-img/menu.svg";
 import logo from "../global-img/logo.svg";
-import youtubeLogo from "../global-img/youtube.svg";
-import facebookLogo from "../global-img/facebook.svg";
+//import youtubeLogo from "../global-img/youtube.svg";
+//import facebookLogo from "../global-img/facebook.svg";
 
-import telegramLogo from "../global-img/telegram.svg";
-import { useState, useRef } from "react";
-import { Nav, NavSecond } from "../../components";
+//import telegramLogo from "../global-img/telegram.svg";
+import { useState } from "react";
+import { Nav } from "../../components";
 
 import Menulinks from "../menulinks/Menulinks";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
-  const [openSecondMenu, setOpenSecondMenu] = useState(false);
+  //const [openSecondMenu, setOpenSecondMenu] = useState(false);
   // const menuClose = useRef();
 
   function menuSlider() {
@@ -44,7 +44,7 @@ function Header() {
           </div> */}
         </nav>
         <div className="logo">
-          <a href="/main">
+          <a href="/otion-project">
             <img className="logo-img" src={logo} alt="Logo" />
           </a>
         </div>

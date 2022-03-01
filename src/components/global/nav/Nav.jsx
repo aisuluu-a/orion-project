@@ -1,6 +1,6 @@
 import "./nav.scss";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+//import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 import { NavSecond } from "../../components";
 
@@ -28,7 +28,7 @@ function Nav() {
       <div className="nav__menu-items">
         <Link
           className="subMenu"
-          to="/main"
+          to="/orion-project"
           onClick={() => setOpenMenu(!openMenu)}
         >
           Главная

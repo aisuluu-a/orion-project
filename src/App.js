@@ -2,21 +2,21 @@ import "./App.css";
 import {
   Header,
   Footer,
-  Main,
+  //Main,
   MainPage,
   Page404,
-  ServicesMain,
+  //ServicesMain,
   ServicesPage,
   ServiceApps,
-  Services,
-  Partners,
-  BeforeAfter,
+ // Services,
+  //Partners,
+  //BeforeAfter,
   //News,
-  Contact,
+ // Contact,
   PageAutomatisation,
   PageOutsoursing,
 } from "./components/components";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; // не было последней версии bootstrap
 import About from "./components/pages/about/about";
 
@@ -25,8 +25,8 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="" element={<MainPage />} />
-        <Route path="/main" element={<MainPage />} />
+        
+        <Route path="/orion-project" element={<MainPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route
           path="/services/automatisation"
