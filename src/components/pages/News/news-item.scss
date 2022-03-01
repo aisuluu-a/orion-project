@@ -1,0 +1,27 @@
+.news__item {
+  width: 30%;
+  height: 420px;
+  border: 1px solid black;
+
+  img {
+    padding-top: 10px;
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  a {
+    font-size: medium;
+    line-height: 1;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  p {
+    margin: 0;
+    font-size: medium;
+    line-height: 1;
+    margin: 5px 10px;
+  }
+}

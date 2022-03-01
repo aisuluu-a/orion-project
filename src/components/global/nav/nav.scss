@@ -1,0 +1,50 @@
+@import "../../../scss/vars";
+.nav__menu-items {
+  padding: 40px 10px 40px 40px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  // position: relative;
+  // top: 55px;
+  // left: -200px;
+  // width: 20%;
+  background-color: $accent-color;
+  // opacity: 0;
+  // transition: 0.3s;
+
+  .subMenu {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #fff;
+    // border-left: 1px solid #000;
+    transition: 0.5s;
+  }
+
+  .subMenu:hover {
+    color: $global-bgc;
+    transition: all 0.5s;
+    // background-color: #fff;
+  }
+
+  .second-menu {
+    position: absolute;
+    top: 55px;
+    left: 270px;
+    height: 100px;
+    // width: 20%;
+    // background-color: #171717;
+    opacity: 0;
+    transition: 0.3s;
+
+    &-vision {
+      opacity: 1;
+      left: 270px;
+      transition: 0.3s;
+    }
+  }
+}

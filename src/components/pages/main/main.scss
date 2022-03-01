@@ -1,0 +1,61 @@
+@import "../../../scss/vars";
+
+h1 {
+  color: $black;
+  font-weight: 800;
+}
+
+.typed {
+  font-weight: 600;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  z-index: 99;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 0 20px;
+
+  span {
+    padding-top: 50px;
+    width: 100%;
+    // position: relative;
+    // top: 60%;
+    // left: 50%;
+    // transform: translate(-50%);
+    color: $accent-color;
+  }
+}
+
+.ityped-cursor {
+  font-size: 2.2rem;
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+.main {
+  position: relative;
+}

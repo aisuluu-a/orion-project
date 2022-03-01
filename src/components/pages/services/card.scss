@@ -1,0 +1,43 @@
+@import "../../../scss/vars";
+
+.ServiceCard {
+  border: 1px solid #c7c4c4;
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 5px;
+  text-align: center;
+  line-height: 1.5em;
+  animation: box-shadow 3s ease;
+  cursor: pointer;
+}
+
+.ServiceCard:hover {
+  box-shadow: 5px 5px 5px #dfdede;
+}
+
+.gc-image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.gc-name {
+  color: $black;
+  margin-top: 5px;
+
+  font-weight: bold;
+}
+
+.gc-description {
+  font-size: 1em;
+}
+
+.gc-price {
+  color: green;
+  font-weight: bold;
+}
+
+.gc-price::before {
+  content: "$";
+}

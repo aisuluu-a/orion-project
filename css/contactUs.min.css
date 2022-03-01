@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+.contact-us {
+  height: 500px;
+  width: 40%;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact-us form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact-us button {
+  width: 200px;
+  background-color: #d32a3d;
+  border: none;
+  float: right;
+}
+.contact-us button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .contact-us, .contact .boxs {
+    width: 90%;
+  }
+}/*# sourceMappingURL=contactUs.min.css.map */

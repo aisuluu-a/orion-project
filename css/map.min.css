@@ -1,0 +1,28 @@
+/*.contacts {
+  margin: auto;
+  margin-top: 50px;
+}*/
+.boxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 90%;
+  padding: 15px;
+  max-width: 80%;
+  height: 500px;
+  padding-right: 50px;
+  margin: 0;
+}
+.boxs .content {
+  width: 500px;
+  margin: 10px 10px;
+}
+.boxs iframe {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=map.min.css.map */

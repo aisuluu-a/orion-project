@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+.footer {
+  color: white;
+  background-color: #1f1f1f;
+  text-align: left;
+  /*&__blocks-adress::before {
+      content: url(../img2/iconmonstr-location.png);
+      margin-right: 5px;
+  }
+
+  &__blocks-phone::before {
+      content: url(../img2/telephone.png);
+      margin-right: 5px;
+    }
+
+  &__blocks-email::before {
+      content: url(../img2/envelope.png);
+      margin-right: 5px;
+  }*/
+}
+.footer .container {
+  max-width: 92%;
+  padding: 0;
+}
+.footer__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 27px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #353535;
+}
+.footer__blocks-items {
+  width: 257px;
+  padding-top: 27px;
+  padding-bottom: 0;
+}
+.footer__blocks-items time {
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #cacaca;
+}
+.footer__blocks-items p {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #cacaca;
+}
+.footer__blocks-header {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  padding-bottom: 20px;
+}
+.footer__blocks-contacts {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 32px;
+  padding-left: 22px;
+}
+.footer__blocks-adress {
+  list-style: url(./img2/iconmonstr-location.png);
+}
+.footer__blocks-phone {
+  list-style: url(./img2/telephone.png);
+}
+.footer__blocks-email {
+  list-style: url(./img2/envelope.png);
+}
+.footer__blocks-second {
+  padding-left: 15px;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #cacaca;
+  list-style: url(./img2/iconmonstr-twitter.png);
+}
+.footer__blocks-second li {
+  padding-bottom: 20px;
+}
+.footer__blocks-third li {
+  list-style: none;
+  padding-left: 3px;
+  padding-bottom: 20px;
+}
+.footer__block-four {
+  padding-bottom: 20px;
+}
+.footer__copyright {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #cacaca;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}/*# sourceMappingURL=footer.min.css.map */

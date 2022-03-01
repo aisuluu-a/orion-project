@@ -1,0 +1,25 @@
+.news__item {
+  width: 30%;
+  height: 420px;
+  border: 1px solid black;
+}
+.news__item img {
+  padding-top: 10px;
+  width: 95%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.news__item a {
+  font-size: medium;
+  line-height: 1;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: black;
+}
+.news__item p {
+  margin: 0;
+  font-size: medium;
+  line-height: 1;
+  margin: 5px 10px;
+}/*# sourceMappingURL=news-item.min.css.map */

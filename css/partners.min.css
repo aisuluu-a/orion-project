@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+.partners {
+  padding-top: 25px;
+  margin: auto;
+}
+.partners h2 {
+  font-size: 1.1 rem;
+  color: #d32a3d;
+}
+.partners .carousel-item-padding-40-px {
+  padding: 50px;
+}
+.partners img {
+  width: 150px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.partners img :hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+.partners .custom-dot-list-style {
+  display: none;
+}/*# sourceMappingURL=partners.min.css.map */

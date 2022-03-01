@@ -1,0 +1,136 @@
+@import "../../../scss/vars";
+
+.footer {
+  // width: 92%;
+  color: white;
+  background-color: #1f1f1f;
+  text-align: left;
+
+  .container {
+    max-width: 92%;
+    padding: 0;
+  }
+
+  &__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #353535;
+  }
+
+  &__blocks-items {
+    width: 257px;
+    padding-top: 27px;
+    padding-bottom: 0;
+
+    time {
+      font-family: "Roboto Slab";
+
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 12px;
+      color: #cacaca;
+    }
+
+    p {
+      font-family: Roboto, sans-serif;
+
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: #cacaca;
+    }
+  }
+
+  &__blocks-header {
+    font-family: "Roboto Condensed", sans-serif;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    padding-bottom: 20px;
+  }
+
+  &__blocks-contacts {
+    font-family: Roboto, sans-serif;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 32px;
+    padding-left: 22px;
+  }
+
+  &__blocks-adress {
+    list-style: url(./img2/iconmonstr-location.png);
+  }
+
+  &__blocks-phone {
+    list-style: url(./img2/telephone.png);
+  }
+
+  &__blocks-email {
+    list-style: url(./img2/envelope.png);
+  }
+
+  /*&__blocks-adress::before {
+      content: url(../img2/iconmonstr-location.png);
+      margin-right: 5px;
+  }
+
+  &__blocks-phone::before {
+      content: url(../img2/telephone.png);
+      margin-right: 5px;
+    }
+
+  &__blocks-email::before {
+      content: url(../img2/envelope.png);
+      margin-right: 5px;
+  }*/
+
+  &__blocks-second {
+    padding-left: 15px;
+    font-family: Roboto, sans-serif;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #cacaca;
+    list-style: url(./img2/iconmonstr-twitter.png);
+
+    li {
+      padding-bottom: 20px;
+    }
+  }
+
+  &__blocks-third {
+    li {
+      list-style: none;
+      padding-left: 3px;
+      padding-bottom: 20px;
+    }
+  }
+
+  &__block-four {
+    padding-bottom: 20px;
+  }
+
+  &__copyright {
+    font-family: Roboto, sans-serif;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #cacaca;
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
+}

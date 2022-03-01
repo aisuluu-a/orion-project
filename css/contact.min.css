@@ -1,0 +1,49 @@
+h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  padding-top: 30px;
+}
+.contact h2 {
+  padding: 30px 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.contact__inner {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.contact__right {
+  margin: 0;
+  padding: 30px 0 0;
+}
+.contact__right h5 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+  .contact__inner {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact__inner .contact-us, .contact__inner .boxs {
+    width: 90%;
+  }
+  .contact__inner iframe {
+    width: 150%;
+  }
+}/*# sourceMappingURL=contact.min.css.map */

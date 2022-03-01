@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+.nav-second__menu-items {
+  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 2;
+  background-color: #c42437;
+  padding: 30px;
+  text-align: left;
+}
+.nav-second__menu-items .nav-second__subMenu {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.nav-second__menu-items .nav-second__subMenu:hover {
+  color: #6b1717;
+}/*# sourceMappingURL=nav.min.css.map */u-items .subMenu:hover {
+  color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.nav__menu-items .second-menu {
+  position: absolute;
+  top: 55px;
+  left: 270px;
+  height: 100px;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav__menu-items .second-menu-vision {
+  opacity: 1;
+  left: 270px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}/*# sourceMappingURL=nav.min.css.map */

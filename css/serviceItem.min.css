@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+.service-item {
+  padding: 20px 10px 0;
+}
+.service-item img {
+  display: block;
+  margin: 0 auto 20px;
+  height: 250px;
+}
+.service-item h4 {
+  padding: 10px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.service-item p {
+  color: #585858;
+  line-height: 1.8rem;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.service-item li {
+  color: #585858;
+  list-style: disc;
+  line-height: 40px;
+}/*# sourceMappingURL=serviceItem.min.css.map */

@@ -1,0 +1,34 @@
+@import "../../../../../scss/vars";
+
+.service-item {
+  padding: 20px 10px 0;
+
+  img {
+    display: block;
+    margin: 0 auto 20px;
+    height: 250px;
+  }
+
+  h4 {
+    padding: 10px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  p {
+    color: $light-black;
+    line-height: 1.8rem;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  li {
+    color: $light-black;
+    list-style: disc;
+    line-height: 40px;
+  }
+}
+
+// p {
+//   color: $light-black;
+//   line-height: 1.8rem;
+// }

@@ -1,0 +1,32 @@
+@import "../../../scss/vars";
+
+.partners {
+  padding-top: 25px;
+  margin: auto;
+  h2 {
+    font-size: 1.1 rem;
+    
+    color: $accent-color;
+  }
+  .carousel-item-padding-40-px {
+    padding: 50px;
+    // height: 100%;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+  }
+
+  img {
+    width: 150px;
+    filter: grayscale(0%);
+    transition: 1s;
+
+    :hover {
+      filter: grayscale(100%);
+    }
+  }
+
+  .custom-dot-list-style {
+    display: none;
+  }
+}

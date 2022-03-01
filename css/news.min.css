@@ -1,0 +1,23 @@
+.news {
+  margin-top: 50px;
+}
+.news h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.news__list {
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 15px;
+}/*# sourceMappingURL=news.min.css.map */
