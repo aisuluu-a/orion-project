@@ -44,7 +44,7 @@ function Header() {
           </div> */}
         </nav>
         <div className="logo">
-          <a href="/otion-project">
+          <a href="/orion-project">
             <img className="logo-img" src={logo} alt="Logo" />
           </a>
         </div>
