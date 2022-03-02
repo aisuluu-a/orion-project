@@ -2,6 +2,13 @@
 https://aisuluu-a.github.io/orion-project/
 
 
+by https://github.com/aisuluu-a, https://github.com/Ainura-prog and https://github.com/AltynKasym
+
+
+
+
+
+
 
 # Getting Started with Create React App
 
